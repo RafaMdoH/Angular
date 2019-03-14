@@ -5,7 +5,7 @@ import { User } from '../interfaces/user';
   providedIn: 'root'
 })
 export class UserService {
-
+  
   private friends: User [];
   constructor() {
     let user1: User = {

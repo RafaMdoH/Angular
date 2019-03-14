@@ -8,7 +8,6 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
   friends: User [];
   constructor(private userServices: UserService)
   {
